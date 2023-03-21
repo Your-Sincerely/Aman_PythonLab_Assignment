@@ -1,29 +1,22 @@
-def add(add1, add2):  # adding two numbers
+def add(add1, add2):
     return add1 + add2
-
-
-def largest_num(x, y, z):  # finding the largest out of three
+def largest_num(x, y, z):
     if x > y:
         if x > z:
             return x
         else:
             return z
-
     elif y > x:
         if y > z:
             return y
         else:
             return z
-
-
-def pos_neg(num):  # Checking wheather the number is positive or not 
+def pos_neg(num):
     if num > 0:
         return "positive"
     else:
         return "negative"
-
-
-def day(num):  # giving the day from the 7days of week
+def day(num):
     if 0 < num < 8:
         Dict = {1: "Monday",
                 2: "Tuesday",
@@ -36,12 +29,10 @@ def day(num):  # giving the day from the 7days of week
         return Dict[num]
     else:
         return "Enter Value again"
-
-
-num1 = int(input("Enter 1st number :"))  # for adding two numbers
+num1 = int(input("Enter 1st number :"))
 num2 = int(input("Enter 2nd number :"))
-num3 = int(input("Enter 3rd number :"))  # for the largest of the three numbers
-one_to_seven = int(input("Enter number between 1 to 7 :"))  # for the day teller
+num3 = int(input("Enter 3rd number :"))
+one_to_seven = int(input("Enter number between 1 to 7 :"))
 
 print("Addition of 2 number :", add(num1, num2))
 print("Largest number is:", largest_num(num1, num2, num3))
