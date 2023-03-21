@@ -1,13 +1,9 @@
 def addition(x, y):  # adding two numbers
     add = x + y
     return add
-
-
 def subtraction(x, y):  # subtracting two numbers
     sub = x - y
     return sub
-
-
 def multiplication(x, y):  # multiplication of two numbers
     multi = x * y
     return multi
