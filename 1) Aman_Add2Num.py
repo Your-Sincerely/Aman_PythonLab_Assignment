@@ -1,21 +1,25 @@
+#to add
 def add(add1, add2):
     return add1 + add2
+
+#finds largest no.
 def largest_num(x, y, z):
-    if x > y:
+    if x >= y:
         if x > z:
             return x
-        else:
-            return z
-    elif y > x:
+    else:
         if y > z:
             return y
-        else:
-            return z
+        return z
+    
+# +/-    
 def pos_neg(num):
     if num > 0:
         return "positive"
     else:
         return "negative"
+    
+# return day
 def day(num):
     if 0 < num < 8:
         Dict = {1: "Monday",
@@ -29,6 +33,8 @@ def day(num):
         return Dict[num]
     else:
         return "Enter Value again"
+    
+    
 num1 = int(input("Enter 1st number :"))
 num2 = int(input("Enter 2nd number :"))
 num3 = int(input("Enter 3rd number :"))
