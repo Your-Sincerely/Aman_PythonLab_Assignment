@@ -1,6 +1,13 @@
 # Python program to display calendar of 2023
 # given month of the year
 
+'''The calendar module allows output calendars like the program and provides
+additional useful functions related to the calendar. Functions and classes defined
+in the calendar module use an idealized calendar, the current Gregorian calendar extended
+indefinitely in both directions. By default, these calendars have Monday as the first day
+of the week, and Sunday as the last (the European convention).
+'''
+
 # import module
 import calendar
 
