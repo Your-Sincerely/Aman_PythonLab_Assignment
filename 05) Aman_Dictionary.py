@@ -5,7 +5,8 @@ Dictionary = {
     2: "Welcome",
 }
 
-print("Dictionary-", Dictionary)  # printing Dictionary
+# printing Dictionary
+print("Dictionary-", Dictionary)  
 
 # Changing values in Dictionary:
 Dictionary[1] = "Value Changed" #
@@ -20,8 +21,10 @@ Dictionary.pop("New Key")   # using pop function to remove item
 print("Removing items", Dictionary)
 
 # Nested Dictionary:
-New_Dictionary = {1: True, 2: False}  # Creating new dictionary
-Dictionary["New Dictionary"] = New_Dictionary  # Nesting new dictionary
+  # Creating new dictionary
+New_Dictionary = {1: True, 2: False}
+  # Nesting new dictionary
+Dictionary["New Dictionary"] = New_Dictionary 
 print("Nested Dictionary", Dictionary)
 
 # Updating Dictionary using update function:
