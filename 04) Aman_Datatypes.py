@@ -1,5 +1,6 @@
 # Data types in Python:
 # initialising data types
+
 int_type = 1  # integer type
 float_type = 1.2  # float type
 string_type = "String"  # string type
