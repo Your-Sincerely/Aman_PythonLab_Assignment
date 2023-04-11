@@ -1,5 +1,8 @@
-def palindrome(string):  # checking palindrome
-    if string == string[::-1]:  # if string equals reverse string
+ # checking palindrome
+def palindrome(string): 
+    
+      # if string equals reverse string
+    if string == string[::-1]:
         print("The given string is palindrome")
     else:
         print("The given string is not palindrome")
