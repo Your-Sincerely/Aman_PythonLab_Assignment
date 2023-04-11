@@ -1,28 +1,32 @@
-def addition(x, y):  # adding two numbers
-    add = x + y
-    return add
-def subtraction(x, y):  # subtracting two numbers
-    sub = x - y
-    return sub
-def multiplication(x, y):  # multiplication of two numbers
-    multi = x * y
-    return multi
+# adding two numbers
+def addition(x, y):
+    return x + y
 
+  # subtracting two numbers
+def subtraction(x, y):
+    return x - y
 
-def division(x, y):  # division of two numbers
-    div = x / y
-    return div
+  # multiplication of two numbers
+def multiplication(x, y):
+    return x * y
+
+  # division of two numbers
+def division(x, y):
+    return x / y
 
 
 # main program
 num1 = int(input("Enter First number:"))  # input1
 num2 = int(input("Enter Second number:"))  # input2
+
 op = input('''
 1 ----- ADD 
 2 ----- SUB
 3 ----- MULTI
 4 ----- DIV
+
 Enter operation : ''')
+
 # operators for choosing
 if op == '1':
     print(f'Addition of numbers {num1} and {num2} is {addition(num1, num2)}')
